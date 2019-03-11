@@ -1,0 +1,76 @@
+body {
+display: flex;
+height: 95vh;
+width: 100vw;	
+}
+
+.yellow {
+	height: 100%;
+	width: 25%;
+	background: url('images/IMG_1399.JPG');
+}
+
+.restrict-img-size { 
+	max-height: 99%;
+	max-width: 99%;
+}
+
+.restrict-img-size2 { 
+	height: 100%;
+	width: 100%;
+}
+
+
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pink {
+	display: flex;
+	height: 100%;
+	width: 50%;
+}
+
+.purple {
+	display: block;
+	height: 100%;
+	width: 25%;
+	background-color: #9675FF;
+}
+
+.lightblue {
+	height: calc(100%/5);
+	width: 100%;
+	background-color: #75D9FF;
+}
+
+
+.blue {
+	display: block;
+	height: 100%;
+	width: 75%;
+	background-color: #43557F;
+}
+
+.orange {
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #FF951A;
+}
+
+
+.red {
+	display: flex;
+	height: calc(100%/6);
+	width: 100%;
+	background-color: #CC2A20;
+}
+
+
+.green {
+	height: 100%;
+	width: calc(100%/3);
+	background-color: #467F58;
+}
