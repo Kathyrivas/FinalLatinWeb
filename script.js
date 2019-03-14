@@ -82,7 +82,7 @@ function nextImage5(el){
 function checkSlot(el){
 	if (a.src.match("images/o2.png") && b.src.match("images/z.png") && c.src.match("images/u.png") && d.src.match("images/n.png") && e.src.match("images/a2.png")){
 		document.getElementById('you-win').play()
-		alert("You Win! Click on Ozuna to go to the NEXT LEVEL (:");
+		alert("You Win! Click on Ozuna to go to the NEXT LEVEL (:"); */ a pop up on the screen will show showing you information pf what to do next */
 		a.classList.add("opaque");
 		b.classList.add("opaque");
 		c.classList.add("opaque");
@@ -92,7 +92,6 @@ function checkSlot(el){
 /*The Second Checkslot is the same as the checkslot above,but this will to another page which is my partner escape room page (ahmad). It will only go to the next page if the 5 letter word is correct.*/
 function checkSlot2(el){
 	if (a.src.match("images/o2.png") && b.src.match("images/z.png") && c.src.match("images/u.png") && d.src.match("images/n.png") && e.src.match("images/a2.png")){
-		document.getElementById('key');
-		document.location.href = "http://google.com";
+		document.getElementById('key'); */ the key will be on the image */
 	}
 }
