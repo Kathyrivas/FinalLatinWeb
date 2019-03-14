@@ -92,6 +92,6 @@ function checkSlot(el){
 /*The Second Checkslot is the same as the checkslot above,but this will to another page which is my partner escape room page (ahmad). It will only go to the next page if the 5 letter word is correct.*/
 function checkSlot2(el){
 	if (a.src.match("images/o2.png") && b.src.match("images/z.png") && c.src.match("images/u.png") && d.src.match("images/n.png") && e.src.match("images/a2.png")){
-		document.getElementById('key'); */ the key will be on the image */
+		document.getElementById('key'); /*the key will be on the image */
 	}
 }
